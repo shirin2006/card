@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    margin: 0;
+    font-family: "Lexend Deca", "Arial", sans-serif;
+  }
+  
+  .card-sedan {
+    background-color: #e28625;
+  }
+  
+  .card-suv  {
+    background-color: #006971;
+  }
+  
+  .card-luxury {
+    background-color: #004140;
+  }
+  
+  .card {
+    display: flex;
+    width: 920px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    list-style: none;
+  }
+  
+  .link{
+    width: 307px;
+    padding: 48px;
+    border-radius: 8px;
+  }
+  
+  .card-logo {
+    margin-bottom: 35px;
+  }
+  
+  .card-text{
+    margin-bottom: 25px;
+    font-family: "Big Shoulders Display";
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #f2f2f2;
+  }
+  
+  .card-discription {
+    margin-bottom: 83px;
+    font-size: 15px;
+    line-height: 25px;
+    color: #fff;
+    opacity: 0.75;
+  }
+  
+  .card-list-link {
+    display: inline-block;
+    padding: 12px 32px;
+    border-radius: 25px;
+    font-size: 15px;
+    line-height: 25px;
+    text-decoration: none;
+    border: 2px solid transparent;
+    background-color: #fff;
+  }
+  
+  .card-list-link:hover{
+      background-color: transparent;
+      color: #fff;
+      border-color: #fff;
+      transition: background 0.3s ease, color 0.3s ease;
+  }
+  
+  .card-sedan {
+    color: #e28625;
+  }
+  
+  .card-suvs{
+    color: #006971;
+  }
+  
+  .card-luxury {
+    color: #004140;
+  }
